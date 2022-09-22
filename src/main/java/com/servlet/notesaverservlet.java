@@ -44,7 +44,7 @@ public class notesaverservlet extends HttpServlet {
 			Transaction txn=s.beginTransaction();
 		    Note note=(Note)s.get(Note.class, id);
 		   
-		    
+		    //deleting..
 		  s.delete(note);
 		    txn.commit();
 		   s.close();
