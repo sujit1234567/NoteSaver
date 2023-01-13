@@ -59,6 +59,7 @@ public class notesaverservlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String action=request.getParameter("action");
+		//t
 	if(action!=null && action.equals("add"))
 	{
 		try{
