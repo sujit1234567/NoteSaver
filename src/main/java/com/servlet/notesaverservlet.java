@@ -64,7 +64,7 @@ public class notesaverservlet extends HttpServlet {
 		try{
 		String title=request.getParameter("title");
 		String content=request.getParameter("content");
-		
+		System.out.println(content);
 		
 		Note n=new Note(title,content,new Date());
 		
