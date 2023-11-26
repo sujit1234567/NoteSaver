@@ -15,9 +15,7 @@ import org.hibernate.Transaction;
 import com.entities.Note;
 import com.helper.FactoryProvider;
 
-/**
- * Servlet implementation class notesaverservlet
- */
+
 public class notesaverservlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
