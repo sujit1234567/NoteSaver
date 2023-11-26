@@ -63,7 +63,7 @@ public class Note {
 	private Date date;
 	public Note() {
 		super();
-		
+		// TODO Auto-generated constructor stub
 	}
 	
 	
